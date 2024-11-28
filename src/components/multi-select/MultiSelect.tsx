@@ -53,7 +53,7 @@ export const MultiSelect = ({
 
   useEffect(() => {
     setCheckedAll(options.length === selected.length);
-  }, [selected.length]);
+  }, [selected.length, options.length]);
 
   useEffect(() => {
     const handleCloseWithKey = (e: KeyboardEvent) => {
@@ -312,15 +312,13 @@ export const MultiSelect = ({
                   {checked && checkedList(list.value)}
                   {list.label}
                 </div>
-                <div className="">
-                  {!checked && selectedCheckList(list.value)}
-                </div>
+                <div>{!checked && selectedCheckList(list.value)}</div>
               </div>
             ))}
           </div>
         ) : creatable ? (
           <div onClick={handleCreatable} className="custom-select-creatable">
-            Create <strong>"{creatableText}"</strong>{" "}
+            Create <strong>"{creatableText}"</strong>
           </div>
         ) : (
           <div className="notfound-message">{emptyState}</div>
