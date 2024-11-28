@@ -12,7 +12,6 @@ import {
   multiSelectPlaceHolderCode,
   multiSelectSearchableCode,
   multiSelectSizeCode,
-  multiSelectWidthCode,
   simpleMultiSelectCode,
 } from "@/components/ExampleCode";
 import { MultiSelect } from "@/components/multi-select/MultiSelect";
