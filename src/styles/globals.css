@@ -71,6 +71,6 @@ body {
   }
 
   .modal-type-title {
-    @apply text-xl font-semibold py-2;
+    @apply text-2xl font-semibold py-2;
   }
 }

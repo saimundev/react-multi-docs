@@ -46,20 +46,20 @@
   box-shadow: var(--shadow-color) 0px 5px 15px 0px;
   position: absolute;
   overflow: hidden;
-  top: 100%; /* Position below the input */
+  top: 100%; 
   left: 0;
-  visibility: hidden; /* Hide by default */
-  opacity: 0; /* Fully transparent when not active */
-  transform: translateY(10px) scale(0.9); /* Slightly shrink for effect */
-  transform-origin: top left; /* Set origin to the top-left corner */
-  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s 0.3s; /* Smooth transition */
+  visibility: hidden; 
+  opacity: 0; 
+  transform: translateY(10px) scale(0.9); 
+  transform-origin: top left; 
+  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s 0.3s;
   width: 100%;
 }
 
 .custom-select-box.active {
-  visibility: visible; /* Show when active */
-  opacity: 1; /* Fully opaque */
-  transform: translateY(0) scale(1); /* Slide up and expand to full size */
+  visibility: visible; 
+  opacity: 1; 
+  transform: translateY(0) scale(1); 
   transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s;
 }
 
@@ -75,7 +75,7 @@
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  transition: background 0.3s ease; /* Smooth hover effect */
+  transition: background 0.3s ease; 
 }
 
 .custom-select-list.highlighted {
@@ -120,25 +120,25 @@
   border: 1px solid blue;
 }
 
-/* Style the checkbox container */
+
 .custom-select-checkbox {
-  appearance: none; /* Remove default checkbox styling */
-  -webkit-appearance: none; /* Safari fix */
+  appearance: none; 
+  -webkit-appearance: none; 
   -moz-appearance: none;
-  width: 22px; /* Set a clean size */
-  height: 22px; /* Set a clean size */
-  border: 1px solid var(--border-color); /* Border color (blue) */
-  border-radius: 6px; /* Rounded corners */
+  width: 22px; 
+  height: 22px; 
+  border: 1px solid var(--border-color); 
+  border-radius: 6px; 
   display: inline-block;
-  background-color: #fff; /* White background by default */
+  background-color: #fff; 
   cursor: pointer;
-  transition: all 0.2s ease; /* Smooth transition on hover and check */
+  transition: all 0.2s ease;
 }
 
 /* Checked state */
 .custom-select-checkbox:checked {
-  background-color: #06b6d4; /* Blue background when checked */
-  border-color: #06b6d4; /* Blue border when checked */
+  background-color: #06b6d4;
+  border-color: #06b6d4;
 }
 
 .custom-select-colose-btn {
