@@ -46,20 +46,20 @@
   box-shadow: var(--shadow-color) 0px 5px 15px 0px;
   position: absolute;
   overflow: hidden;
-  top: 100%; 
+  top: 100%;
   left: 0;
-  visibility: hidden; 
-  opacity: 0; 
-  transform: translateY(10px) scale(0.9); 
-  transform-origin: top left; 
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(10px) scale(0.9);
+  transform-origin: top left;
   transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s 0.3s;
   width: 100%;
 }
 
 .custom-select-box.active {
-  visibility: visible; 
-  opacity: 1; 
-  transform: translateY(0) scale(1); 
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0) scale(1);
   transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s;
 }
 
@@ -75,7 +75,7 @@
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  transition: background 0.3s ease; 
+  transition: background 0.3s ease;
 }
 
 .custom-select-list.highlighted {
@@ -120,25 +120,24 @@
   border: 1px solid blue;
 }
 
-
 .custom-select-checkbox {
-  appearance: none; 
-  -webkit-appearance: none; 
+  appearance: none;
+  -webkit-appearance: none;
   -moz-appearance: none;
-  width: 22px; 
-  height: 22px; 
-  border: 1px solid var(--border-color); 
-  border-radius: 6px; 
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--border-color); /* Border color (blue) */
+  border-radius: 6px; /* Rounded corners */
   display: inline-block;
-  background-color: #fff; 
+  background-color: #fff; /* White background by default */
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease; /* Smooth transition on hover and check */
 }
 
 /* Checked state */
 .custom-select-checkbox:checked {
-  background-color: #06b6d4;
-  border-color: #06b6d4;
+  background-color: #06b6d4; /* Blue background when checked */
+  border-color: #06b6d4; /* Blue border when checked */
 }
 
 .custom-select-colose-btn {
@@ -147,7 +146,7 @@
 
 .custom-select-checkbox-icon {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -162,7 +161,7 @@
 
 .test {
   position: absolute;
-  top: 50% !important;
+  top: 42% !important;
   left: 50% !important;
   transform: translate(-50%, -50%);
 }
