@@ -11,7 +11,7 @@ const page = () => {
           Installation
         </span>
         <h1 className="text-4xl font-black py-2">
-          Get started with React Multi
+          Get started with React Multis
         </h1>
         <p className="text-lg text-gray-700 dark:text-white/90">
           A lightweight, customizable multi-select component for web
@@ -58,9 +58,9 @@ const page = () => {
       </div>
       <div className="mt-10">
         <h3 className="text-2xl font-semibold py-2">Installation</h3>
-        <InstallCommand text="npm i react-multi" type="npm" />
-        <InstallCommand text="yarn add react-multi" type="yarn" />
-        <InstallCommand text="pnpm add react-multi" type="pnpm" />
+        <InstallCommand text="npm i react-multis" type="npm" />
+        <InstallCommand text="yarn add react-multis" type="yarn" />
+        <InstallCommand text="pnpm add react-multis" type="pnpm" />
       </div>
 
       <div className="flex justify-end mt-20">
